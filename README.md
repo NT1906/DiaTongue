@@ -13,9 +13,9 @@ DiaTongue is an AI-powered diabetes screening tool that analyzes tongue images t
 
 <!-- Add your demo video file to the assets folder and update the path below -->
 <p align="center">
-  <video src="assets/demo.mp4" width="300" controls autoplay loop muted>
-    Your browser does not support the video tag.
-  </video>
+  <a href="assets/demo.mp4">
+    <img src="assets/demo_thumbnail.png" alt="Watch Demo" width="300">
+  </a>
 </p>
 
 
