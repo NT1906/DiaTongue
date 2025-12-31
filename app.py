@@ -35,7 +35,7 @@ async def predict(file: UploadFile = File(...)):
     interpreter.invoke()
     result = interpreter.get_tensor(output_details[0]['index'])[0][0]
 
-    label = "Diabetic" if result > 0.5 else "Non-Diabetic"
+    label = "Non-Diabetic" if result > 0.5 else "Diabetic"
     confidence = float(result if result > 0.5 else 1 - result)
 
     return {"prediction": label, "confidence": round(confidence, 2)}
