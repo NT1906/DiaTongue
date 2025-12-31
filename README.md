@@ -30,7 +30,7 @@ DiaTongue is an AI-powered diabetes screening tool that analyzes tongue images t
 ## 🏗️ Architecture
 
 <p align="center">
-  <img src="assets/flowchart.png" alt="DiaTongue Architecture" width="600">
+  <img src="assets/Flowchart.png" alt="DiaTongue Architecture" width="600">
 </p>
 
 ## 📊 Model Performance
