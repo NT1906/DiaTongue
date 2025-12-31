@@ -3,8 +3,8 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-API_URL = "https://diatongue.onrender.com/predict"
-BOT_TOKEN = "8101564282:AAHfY3XWBDR_uVrn7jBd1cpAfGhlJuJURjc"
+API_URL = "your_url"
+BOT_TOKEN = "your_bot_token"
 
 logging.basicConfig(level=logging.INFO)
 
